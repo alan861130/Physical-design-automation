@@ -1,0 +1,24 @@
+--How to compile my program
+
+In the /src directory, enter the following command : 
+
+＄ source /tools/linux/gnu/setup_toolkit.csh
+It will link gcc to gcc 4.8.5
+
+$ make
+It will generate the executable file 'hw2' in "HW2/bin"
+
+If you want to remove it, please enter the following command :
+$ make clean
+
+
+--How to run my program
+In this directory, enter the following command :
+Usage: ../bin/<exe> <net file> <cell file> <output file>
+e.g.:
+$ ../bin/hw2 p2-1.nets p2-1.cells p2-1.output
+
+If in the 'HW2/bin' directory, enter the following command :
+Usage: ./<exe> <net file> <cell file> <output file>
+e.g.:
+$ ./hw2 p2-1.nets p2-1.cells p2-1.output
