@@ -1,0 +1,20 @@
+--How to compile my program
+
+In the /src directory, enter the following command : 
+
+＄ source /tools/linux/gnu/setup_toolkit.csh
+It will link gcc to gcc 4.8.5
+
+$ make
+It will generate the executable file 'hw3' in "HW3/bin"
+
+If you want to remove it, please enter the following command :
+$ make clean
+
+
+--How to run my program
+In this directory, enter the following command :
+Usage: ../bin/<exe> <hardblock file> <nets file> <pl file> <output file> <dead space ratio>
+e.g.:
+$ ../bin/hw3 ../testcasses/n100.hardblocks ../testcasses/n100.nets ../testcasses/n100.pl ../output/n100.floorplan 0.1
+
